@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zachowanie Stanu</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Przykład Zachowania Stanu</h1>
+        <div class="form-container">
+            <form action="/submit" method="POST">
+                <label for="termValue">Ciasteczko Terminowe:</label>
+                <input type="text" id="termValue" name="termValue" required>
+                <label for="sessionValue">Ciasteczko Sesyjne:</label>
+                <input type="text" id="sessionValue" name="sessionValue" required>
+                <label for="sessionVar">Zmienna Sesyjna:</label>
+                <input type="text" id="sessionVar" name="sessionVar" required>
+                <label for="localStorageVar">Zmienna LocalStorage:</label>
+                <input type="text" id="localStorageVar" name="localStorageVar" required>
+                <button type="submit">Zapisz</button>
+            </form>
+        </div>
+
+        <div class="result-container">
+            <h2>Zapisane Wartości:</h2>
+            <div class="card-container">
+                <div class="card">
+                    <p><strong>Ciasteczko Terminowe:</strong></p>
+                    <p><%= termCookie %></p>
+                </div>
+                <div class="card">
+                    <p><strong>Ciasteczko Sesyjne:</strong></p>
+                    <p><%= sessionCookie %></p>
+                </div>
+                <div class="card">
+                    <p><strong>Zmienna Sesyjna:</strong></p>
+                    <p><%= sessionVar %></p>
+                </div>
+                <div class="card">
+                    <p><strong>Zmienna LocalStorage:</strong></p>
+                    <p id="localStorageValue"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="/script.js"></script>
+</body>
+</html>
