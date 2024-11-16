@@ -1,0 +1,21 @@
+Zaimplementuj poniższe wymagania. Twoja implementacja powinna zawierać wskazane funkcje i kod prezentujący ich działanie. Użyj własnej inwencji do uzupełnienia „brakujących” elementów wymagań.
+
+a) Funkcja prezentująca działanie pętli for (1 pkt)
+
+b) Funkcja prezentująca działanie pętli while (1 pkt)
+
+c) Funkcja prezentująca działanie pętli for ... in (1 pkt)
+
+d) Funkcja prezentująca działanie pętli for ... of (1 pkt)
+
+e) Funkcja prezentująca działanie instrukcji if (1 pkt)
+
+f) Funkcja przyjmująca dwa (lub więcej) parametry, sprawdzająca czy są one liczbami lub mogą być skonwertowane na wartości liczbowe i wykonująca na nich obliczenia lub (jeśli to niemożliwe) zwracająca błąd (1 pkt)
+
+g) Funkcja przyjmująca zmienną liczbę parametrów i robiącą z nimi coś (1 pkt)
+
+h) Funkcja przyjmująca jako jeden z parametrów funkcję (i wykorzystująca ją w jakiś sposób) + 2 przykładowe funkcje, które można wykorzystać jako jej parametry (1 pkt)
+
+i) Przykład wykorzystania funkcji konstruktora do tworzenia obiektów – obiekty powinny mieć przynajmniej 3 pola różnych typów i 1 metodę robiącą coś (1 pkt)
+
+j) Przykład wykorzystania klas do tworzenia obiektów – obiekty powinny mieć przynajmniej 3 pola różnych typów, konstruktor i 1 metodę robiącą coś (1 pkt)
